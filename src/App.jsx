@@ -1,9 +1,8 @@
-```jsx
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="app">
@@ -20,8 +19,8 @@ function App() {
             <h2>Design and Deploy a PaaS Environment</h2>
 
             <p className="description">
-              This web application is deployed using AWS Amplify,
-              a Platform as a Service (PaaS) provided by Amazon Web Services.
+              This web application is deployed using AWS Amplify, a Platform as
+              a Service (PaaS) provided by Amazon Web Services.
             </p>
 
             <div className="status">
@@ -64,15 +63,15 @@ function App() {
             <h2>Interactive Demo</h2>
 
             <p>
-              This counter demonstrates that the deployed React application
-              is working correctly.
+              This counter demonstrates that the deployed React application is
+              working correctly.
             </p>
 
             <button
               className="counter-button"
               onClick={() => setCount((count) => count + 1)}
             >
-              Button clicked {count} {count === 1 ? 'time' : 'times'}
+              Button clicked {count} {count === 1 ? "time" : "times"}
             </button>
           </div>
         </section>
@@ -82,9 +81,9 @@ function App() {
             <h2>Conclusion</h2>
 
             <p>
-              The web application was successfully designed and deployed
-              using AWS Amplify. GitHub integration enables automatic
-              deployment whenever changes are pushed to the repository.
+              The web application was successfully designed and deployed using
+              AWS Amplify. GitHub integration enables automatic deployment
+              whenever changes are pushed to the repository.
             </p>
           </div>
         </section>
@@ -94,8 +93,7 @@ function App() {
         <p>AWS Amplify PaaS Experiment • Cloud Computing</p>
       </footer>
     </div>
-  )
+  );
 }
 
-export default App
-```;
+export default App;
